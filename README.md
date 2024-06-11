@@ -11,7 +11,7 @@ cd links
 ```
 ## Find links that return an error
 
-The following command finds links within [http://localhost:3000](http://localhost:3000). Make sure you start your local server (usually, `npm run dev`).
+The following command finds links within [http://localhost:3000](http://localhost:3000) that return an error, such as a `404` error. Make sure you start your local server (usually, `npm run dev`).
 
 ```bash
 npm run check-links:local
