@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "check-links:local": "npx linkinator http://localhost:3000 -r",
-    "check-links:prod": "npx linkinator https://learning.postman.com -r"
+    "check-links:local": "npx linkinator http://localhost:3000 -r --verbosity error",
+    "check-links:prod": "npx linkinator https://learning.postman.com --verbosity error"
   },
   "keywords": [],
   "author": "",
